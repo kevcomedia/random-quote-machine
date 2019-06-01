@@ -9,7 +9,7 @@ function Quote(props) {
         className="quote__content"
         dangerouslySetInnerHTML={{ __html: props.quote }}
       />
-      <p className="quote__author">{props.author}</p>
+      {props.author && <p className="quote__author">{props.author}</p>}
     </blockquote>
   );
 }
