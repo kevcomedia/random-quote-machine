@@ -1,0 +1,15 @@
+.quote {
+  font-size: inherit;
+  margin: 0;
+}
+
+.quote__content {
+  font-size: 1.2em;
+}
+
+.quote__author {
+  font-size: 0.9em;
+}
+.quote__author::before {
+  content: '—';
+}

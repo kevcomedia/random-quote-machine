@@ -3,6 +3,7 @@ import Quote from './Quote';
 import NewQuoteButton from './NewQuoteButton';
 import TweetLink from './TweetLink';
 import fetchQuote from './fetchQuote';
+import './QuoteMachine.css';
 
 function QuoteMachine(props) {
   const [quote, setQuote] = useState('');
